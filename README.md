@@ -23,6 +23,7 @@ The objective of this project is to develop a pipeline for magnifying subtle tem
 
 project-root/
 │
+
 ├── Eulerian video magnification.ipynb # Main Jupyter notebook
 ├── Eulerian video magnification_report.pdf # Final report documenting the methodology
 ├── README.md # This file
