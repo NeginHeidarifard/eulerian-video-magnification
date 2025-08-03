@@ -56,6 +56,6 @@ Author
 Negin Heidarifard
 MSc Artificial Intelligence, Université Paris-Saclay
 GitHub: github.com/NeginHeidarifard
-Email: heidarifardnegin@gmail.com
+Email: negin.heidarifard@universite-paris-saclay.fr
 
 This project was developed as part of the Computer Vision coursework at Université Paris-Saclay, demonstrating practical application of motion amplification techniques in real-world video data.
