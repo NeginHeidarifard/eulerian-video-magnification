@@ -23,10 +23,9 @@ The objective of this project is to develop a pipeline for magnifying subtle tem
 
 project-root/
 │
-
-├── Eulerian video magnification.ipynb # Main Jupyter notebook
-├── Eulerian video magnification_report.pdf # Final report documenting the methodology
-├── README.md # This file
+├── Eulerian video magnification.ipynb        # Main Jupyter notebook
+├── Eulerian video magnification_report.pdf   # Final report
+└── README.md                                 # This file
 
 
 ## Technologies Used
@@ -50,7 +49,7 @@ The dataset used in this project is not publicly uploaded due to storage limitat
 **Negin Heidarifard**  
 MSc Artificial Intelligence, Université Paris-Saclay  
 GitHub: [github.com/NeginHeidarifard](https://github.com/NeginHeidarifard)  
-Email: heidarifardnegin@gmail.com
+
 
 ---
 
