@@ -1,70 +1,44 @@
 # Eulerian Video Magnification for Subtle Motion Detection
 
-This repository provides an implementation of the **Eulerian Video Magnification (EVM)** algorithm, which enhances subtle motion and color variations in videos. The technique enables the visualization of physiological signals—such as heartbeats, breathing, and skin color changes—that are otherwise invisible to the human eye.
+This repository presents an implementation of **Eulerian Video Magnification (EVM)**, a technique designed to amplify subtle temporal variations in video sequences. By operating directly on pixel intensity changes rather than explicit motion tracking, EVM makes it possible to visualize weak signals such as physiological color changes related to heartbeat or breathing that are otherwise imperceptible to the human eye.
 
-> 📄 Based on: [Eulerian Video Magnification for Revealing Subtle Changes in the World – MIT](https://people.csail.mit.edu/mrub/evm/)
-
----
-
-##  Project Overview
-
-This project focuses on building a computational pipeline for amplifying subtle temporal changes in videos using spatial decomposition and temporal bandpass filtering.
-
-### Real-world Applications:
-- Non-invasive physiological monitoring  
-- Biomedical signal enhancement  
-- Human-computer interaction  
-- Behavioral and psychological analysis  
-- Surveillance and anomaly detection  
+> 📄 Inspired by: *Eulerian Video Magnification for Revealing Subtle Changes in the World*  
+> MIT CSAIL – Wu et al.
 
 ---
 
-##  Key Features
+## Project Overview
 
-- Spatial decomposition using Laplacian pyramids  
-- Temporal filtering using Butterworth filters  
-- Motion and color signal amplification  
-- Real-time rendering of enhanced videos  
-- Tested on facial video datasets with visible physiological cues  
+The goal of this project is to build and analyze a complete Eulerian Video Magnification pipeline based on spatial multiscale decomposition and temporal bandpass filtering. The implementation emphasizes clarity, interpretability, and qualitative analysis rather than strict physiological measurement.
+
+The pipeline combines color space separation, Laplacian pyramids, temporal filtering, and scale-dependent amplification to enhance subtle signals while preserving visual realism.
 
 ---
 
-##  Folder Structure
+## Potential Applications
+
+- Non-invasive physiological signal visualization  
+- Biomedical and health-related video analysis  
+- Human–computer interaction  
+- Behavioral and affective computing  
+- Motion amplification for visual inspection  
+
+---
+
+## Key Features
+
+- Multiscale spatial decomposition using **Laplacian pyramids**  
+- Temporal **Butterworth bandpass filtering**  
+- Scale-dependent amplification to reduce high-frequency noise  
+- Face masking to localize amplification to relevant regions  
+- Qualitative analysis of amplification artifacts and limitations  
+
+---
+
+## Repository Structure
 
 ```bash
 project-root/
-├── Eulerian video magnification.ipynb        # Main implementation in Jupyter Notebook
-├── Eulerian video magnification_report.pdf   # Technical report documenting the methodology and results
-└── README.md                                 # Project documentation
-
-
-Technologies Used
-Python (NumPy, SciPy, OpenCV)
-
-Matplotlib, MoviePy
-
-Jupyter Notebook
-
-Report
-Eulerian video magnification_report.pdf
-
-Dataset Access
-The dataset used in this project is not publicly uploaded due to storage limitations and privacy considerations.
-If you are interested in reproducing the results or require the dataset for academic purposes, please contact the author.
-
-Author
-Negin Heidarifard
-MSc Artificial Intelligence, Université Paris-Saclay
-GitHub: github.com/NeginHeidarifard
-Email: negin.heidarifard@universite-paris-saclay.fr
-
-This project was developed as part of the Computer Vision coursework at Université Paris-Saclay, demonstrating practical application of motion amplification techniques in real-world video data.
-
-
-## License
-
-This project is licensed under the MIT License.  
-You are free to use, modify, and distribute it with proper attribution.
-
-See the [`LICENSE`](./LICENSE) file for more details.
-
+├── eulerian-video-magnification.ipynb     # Main implementation and analysis
+├── Eulerian_video_magnification_report.pdf # Technical report (methods & results)
+└── README.md                              # Project documentation
